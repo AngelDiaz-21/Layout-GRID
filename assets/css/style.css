@@ -7,21 +7,20 @@
         "contenido"
         "rodapie";
     grid-template-columns: auto;
-    grid-template-rows: 100px auto auto;
-    
-    
+    grid-template-rows: 70px auto auto;
 }
 
 .encabezado {
     grid-area: encabezado;
     display: flex;
     align-items: center;
-    padding: 0 3rem;
+    font-size: 0.6875rem;
+    justify-content: center;
 }
 
 .contenido {
     grid-area: contenido;
-    padding: 0 3rem;
+    padding: 0 2rem;
     width: 90%;
     margin: 0 auto;
 }
@@ -32,4 +31,5 @@
     grid-area: rodapie;
     padding: 1rem;
     text-align: center;
+    font-size: 0.75rem;
 }
