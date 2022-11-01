@@ -1,0 +1,60 @@
+.destaques{
+    display: grid;
+    grid-template-columns: 24% 25% 25% 25%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: calc(50vh - 50px);
+}
+
+.destaques__principal{
+    grid-column: 1 / 5;
+    grid-row: 1 / 3;
+    background: url('../img/fortnite.jpg') top / cover no-repeat;
+    border-radius: 10px;
+}
+
+.destaques__secundario:nth-child(2), 
+.destaques__secundario:nth-child(3), 
+.destaques__secundario:nth-child(4),
+.destaques__secundario:nth-child(5){
+    display: none;
+}
+
+.box{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.destaques__titulo{
+    color: white;
+    background-color: rgb(0, 0, 0, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem;
+    border-radius: 0 0 10px 10px;
+}
+
+.destaques__categorias{
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+}
+
+.destaques__categorias___lista{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: space-between;
+}
+
+.destaques__categorias___item{
+    display: flex;
+    align-items: center;
+    background-color: #fdfdfd;
+    width: 50%;
+    padding: 1rem;
+    font-size: 0.625rem;
+}
+
+.destaques__categorias___link{
+    color: inherit;
+}
