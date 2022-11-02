@@ -1,3 +1,14 @@
+# CSS Grid: Simplificando Layouts
+Este proyecto como su nombre lo indica se enfoca más en el uso de CSS Grid, cuando se comenzó a realizar el proyecto ya contenía una estructura así como de algunos estilos básicos. El responsive, la posición de los elementos y algunos estilos para mejorar el proyecto fue lo que se realizó.
+
+Link de la página: [Ver página](https://angeldiaz-21.github.io/Layout-GRID/)
+## Objetivos
+* Simplificar la creación de layouts complejos.
+* Posicionar elementos con mayor facilidad.
+* Utilizar Grid para calcular y alinear elementos.
+* Crear templates con más eficiencia y simplicidad.
+* Alinear los elementos en donde tienen que posicionarse.
+* Determinar en donde los elementos deben de empezar y terminar.
 
 ## Que se aprendió a lo largo de este curso
 * Definir un template y crear áreas.
